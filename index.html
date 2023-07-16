@@ -4,21 +4,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Newsletter Sign-Up</title>
+  <title>Newsletter Subscribe</title>
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/index.css">
-
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/index.css">
+  <link rel="stylesheet" href="/css/states.css">
 </head>
 
 <body>
-  <!-- * Sign-up form start -->
-  <div class="main">
-    <div class="hero">
-      <h1>Stay updated!</h1>
+  <main class="card">
+    <section class="hero">
+      <h1 class="title">Stay updated!</h1>
       <p>Join 60,000+ product managers receiving monthly updates on:</p>
       <ul>
         <li> Product discovery and building what matters</li>
@@ -26,33 +25,33 @@
         <li> And much more!</li>
       </ul>
 
-      <section>
+      <form>
         <label for="email">Email address</label>
         <input type="email" id="email" placeholder="email@company.com"></input>
-        <button class="subscribe">Subscribe to monthly newsletter</button>
-      </section>
-    </div>
+        <button type="submit" class="sub-btn">Subscribe to monthly newsletter</button>
+      </form>
 
-    <div class="graphic">
-      <img src="/assets/images/illustration-sign-up-desktop.svg" alt="">
-    </div>
-  </div>
-  <!-- * Sign-up form end -->
+    </section>
+
+    <section class="graphic">
+      <img src="/assets/images/illustration-sign-up-desktop.svg" alt="graphic design">
+    </section>
+  </main>
 
   <!-- * Success message start -->
   <!-- <div>
 
-    Thanks for subscribing!
+        Thanks for subscribing!
 
-    A confirmation email has been sent to ash@loremcompany.com.
-    Please open it and click the button inside to confirm your subscription.
+        A confirmation email has been sent to ash@loremcompany.com.
+        Please open it and click the button inside to confirm your subscription.
 
-    Dismiss message
-  </div> -->
+        Dismiss message
+      </div> -->
   <!-- * Success message end -->
 
   <div class="attribution">
-    <a href="https://github.com/briannarenni/">Brianna Renni</a>
+    <p>Brianna Renni | <a href="https://github.com/briannarenni/">Github</a></p>
   </div>
 
 </body>
