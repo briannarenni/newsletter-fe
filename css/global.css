@@ -1,0 +1,28 @@
+:root {
+  --slate: rgba(39, 41, 63, 1);
+  --charcoal: rgba(54, 56, 78, 1);
+  --grey: rgba(146, 148, 1600, 1);
+  --attr-color: hsl(228, 90%, 85%);
+  --btn-bkg: rgb(247, 57, 120);
+  --btn-gradient: linear-gradient(90deg, rgba(247, 57, 120, 0.8510270319065126) 48%, rgba(237, 98, 10, 0.9350606453518908) 78%);
+}
+
+/* States */
+button:hover {
+  background: var(--btn-bkg);
+  background: var(--btn-gradient);
+  cursor: pointer;
+}
+
+/* Dimmer gradient for active/focused */
+button:active,
+button:focus {
+  background: var(--btn-bkg);
+  background: linear-gradient(90deg, rgba(247, 57, 120, 0.6) 48%, rgba(237, 98, 10, 0.6) 78%);
+  cursor: pointer;
+}
+
+input:focus {
+  border: 1px solid black;
+  outline: none;
+}

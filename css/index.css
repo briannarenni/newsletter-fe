@@ -1,11 +1,4 @@
-:root {
-  --slate: rgba(39, 41, 63, 1);
-  --charcoal: rgba(54, 56, 78, 1);
-  --grey: rgba(146, 148, 1600, 1);
-  --attr-color: hsl(228, 90%, 85%);
-  --btn-bkg: rgb(247, 57, 120);
-  --btn-gradient: linear-gradient(90deg, rgba(247, 57, 120, 0.8510270319065126) 48%, rgba(237, 98, 10, 0.9350606453518908) 78%);
-}
+@import './global.css';
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -19,36 +12,13 @@ body {
   height: 100vh;
 }
 
-/* States */
-button:hover {
-  background: var(--btn-bkg);
-  background: var(--btn-gradient);
-  cursor: pointer;
-}
-
-/* Dimmer gradient for active/focused */
-button:active,
-button:focus {
-  background: var(--btn-bkg);
-  background: linear-gradient(90deg, rgba(247, 57, 120, 0.6) 48%, rgba(237, 98, 10, 0.6) 78%);
-  cursor: pointer;
-}
-
-input:focus {
-  border: 1px solid black;
-  outline: none;
-}
-
-/* Containers */
 .card {
-  box-sizing: border-box;
   background-color: white;
   border-radius: 30px;
   display: flex;
   width: 65%;
   justify-content: space-between;
   padding: 20px 10px;
-  margin: 0 auto;
 }
 
 .hero,
@@ -68,46 +38,52 @@ input:focus {
   margin: 10px;
 }
 
-/* Hero Elements */
 .title {
   font-size: 3em;
   color: var(--slate);
   margin-left: 10px;
 }
 
-.sub-btn {
-  margin: 20px 10px;
+.label {
+  font-weight: bold;
+  font-size: .8em;
+  margin: 0 15px;
 }
 
-input,
-button {
+.email,
+.sub-btn {
   box-sizing: border-box;
+  display: block;
   width: 95%;
   font-size: .8em;
   padding: 15px;
   border-radius: 10px;
   border: 1px solid lightgrey;
   box-shadow: none;
+  margin: 20px 10px;
 }
 
-button {
+.sub-btn {
   background-color: var(--slate);
   color: white;
-  display: block;
   font-weight: bold;
   padding: 18px;
 }
 
-/* General */
-input {
-  display: block;
-  margin: 10px;
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 5px;
+  color: var(--attr-color);
 }
 
-label {
-  font-weight: bold;
-  font-size: .8em;
-  margin: 0 15px;
+.attribution a {
+  color: var(--attr-color);
+}
+
+.attribution a:hover {
+  color: var(--attr-color);
+  font-size: 16px;
 }
 
 img {
@@ -126,15 +102,4 @@ ul {
 
 li {
   list-style-image: url(/assets/images/icon-list.svg);
-}
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
-  margin-top: 5px;
-  color: var(--attr-color);
-}
-
-.attribution a {
-  color: var(--attr-color);
 }
