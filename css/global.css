@@ -5,6 +5,7 @@
   --grey: rgba(146, 148, 1600, 1);
   --attr-color: hsl(228, 90%, 85%);
   --tomato: rgba(255, 98, 87);
+  --tomatoBkg: rgba(244, 124, 115, 0.567);
   --btn-bkg: rgb(247, 57, 120);
   --btn-gradient: linear-gradient(90deg, rgba(247, 57, 120, 0.8510270319065126) 48%, rgba(237, 98, 10, 0.9350606453518908) 78%);
 }

@@ -44,10 +44,21 @@ body {
   margin-left: 10px;
 }
 
-.label {
+.labels {
+  display: flex;
+  justify-content: space-between;
   font-weight: bold;
   font-size: .8em;
+}
+
+.label,
+.error-message {
   margin: 0 15px;
+}
+
+.error-message {
+  display: none;
+  color: var(--tomato);
 }
 
 .email,
@@ -60,7 +71,7 @@ body {
   border-radius: 10px;
   border: 1px solid lightgrey;
   box-shadow: none;
-  margin: 20px 10px;
+  margin: 15px 10px;
 }
 
 .sub-btn {

@@ -24,8 +24,11 @@
         <li> And much more!</li>
       </ul>
 
-      <form>
-        <label for="email" class="label">Email address</label>
+      <form id="email-form" target="_self" novalidate>
+        <div class="labels">
+          <label for="email" class="label">Email address</label>
+          <span class="error-message" id="email-error"></span>
+        </div>
         <input type="email" id="email" class="email" placeholder="email@company.com"></input>
         <button type="submit" class="sub-btn">Subscribe to monthly newsletter</button>
       </form>
@@ -41,6 +44,7 @@
     <p>Brianna Renni | <a href="https://github.com/briannarenni/">Github</a></p>
   </div>
 
+  <script src="/js/index.js"></script>
 </body>
 
 </html>
