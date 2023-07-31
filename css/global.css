@@ -1,4 +1,3 @@
-/* - Mobile: 375px - Desktop: 1440px */
 :root {
   --slate: rgba(39, 41, 63, 1);
   --charcoal: rgba(54, 56, 78, 1);
@@ -8,6 +7,10 @@
   --tomatoBkg: rgba(244, 124, 115, 0.567);
   --btn-bkg: rgb(247, 57, 120);
   --btn-gradient: linear-gradient(90deg, rgba(247, 57, 120, 0.8510270319065126) 48%, rgba(237, 98, 10, 0.9350606453518908) 78%);
+}
+
+* {
+  box-sizing: border-box;
 }
 
 /* States */

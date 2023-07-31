@@ -1,21 +1,21 @@
 @import './global.css';
 
 body {
-  font-family: 'Roboto', sans-serif;
-  font-size: .9em;
+  font-size: 20px;
   background-color: var(--charcoal);
+  font-family: 'Roboto', sans-serif;
+  line-height: normal;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
 .card {
   background-color: white;
-  max-width: 33%;
+  max-width: 35vw;
   border-radius: 30px;
-  padding: 30px;
+  padding: 10px;
   margin: 0 auto;
 }
 
@@ -23,14 +23,13 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
-  margin: 5px;
+  padding: 15px;
 }
 
 .title {
   font-size: 3em;
-  margin-top: 20px;
-  margin-bottom: 10px;
+  margin: 10px;
+
 }
 
 .dismiss-btn {
@@ -38,9 +37,9 @@ body {
   display: block;
   background-color: var(--slate);
   color: white;
-  font-size: .8em;
+  font-size: .9em;
   font-weight: bold;
-  width: 100%;
+  min-width: 100%;
   border-radius: 10px;
   border: 1px solid lightgrey;
   box-shadow: none;
@@ -65,11 +64,11 @@ body {
 }
 
 p {
-  margin-top: 10px;
-  line-height: 1.5em;
+  margin: 10px;
+line-height: 1.5;
 }
 
 img {
-  width: 13%;
+  max-width: 13%;
   align-self: flex-start;
 }
