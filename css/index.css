@@ -1,13 +1,22 @@
 @import './global.css';
 
 body {
-  font-size: 20px;
+  font-size: 19px;
   background-color: var(--charcoal);
   font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+p {
+  margin: 10px;
+}
+
+ul li {
+  padding: 3px;
+  list-style-image: url(/assets/images/icon-list.svg);
 }
 
 .card {
@@ -17,17 +26,17 @@ body {
   background-color: white;
   max-width: 65vw;
   border-radius: 30px;
+  padding: 5px;
 }
 
-.hero,
-.graphic {
-  max-width: 50%;
-}
+ .hero,
+ .graphic {
+   max-width: 50%;
+ }
 
 .hero {
   display: flex;
   flex-direction: column;
-  align-self: center;
   padding: 5px;
 }
 
@@ -38,7 +47,7 @@ body {
 .title {
   font-size: 3em;
   color: var(--slate);
-  margin: 10px;
+  margin-left: 10px;
 }
 
 .labels {
@@ -79,7 +88,7 @@ body {
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 14px;
   text-align: center;
   margin-top: 5px;
   color: var(--attr-color);
@@ -92,17 +101,4 @@ body {
 .attribution a:hover {
   color: var(--attr-color);
   font-size: 16px;
-}
-
-p {
-  margin: 10px;
-}
-
-ul {
-  line-height: 2;
-}
-
-ul li {
-  padding: 3px;
-  list-style-image: url(/assets/images/icon-list.svg);
 }

@@ -1,8 +1,0 @@
-/* * - Mobile: 375px - Desktop: 1440px */
-/* 1200-1300 */
-
-@media screen and (max-width: 1300px) {
-  ul {
-    line-height: 1em;
-  }
-}
