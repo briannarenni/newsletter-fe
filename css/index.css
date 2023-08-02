@@ -29,10 +29,10 @@ ul li {
   padding: 5px;
 }
 
- .hero,
- .graphic {
-   max-width: 50%;
- }
+.hero,
+.graphic {
+  max-width: 50%;
+}
 
 .hero {
   display: flex;
@@ -96,6 +96,7 @@ ul li {
 
 .attribution a {
   color: var(--attr-color);
+  font-weight: bold;
 }
 
 .attribution a:hover {
