@@ -1,0 +1,74 @@
+/* Index */
+@media screen and (max-width: 1023px) {
+  .card {
+    flex-direction: column;
+    border-radius: 0;
+    padding: 0;
+  }
+
+  .hero,
+  .graphic {
+    max-width: 100%;
+  }
+
+  .hero {
+    scale: .9;
+  }
+
+  .graphic {
+    order: -1;
+    padding: 0;
+    align-self: center;
+  }
+
+  .attribution {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1023px) {
+  ul {
+    font-size: 17px;
+  }
+
+  .hero {
+    max-width: 80%;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 799px) {
+  ul {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+
+  .card {
+    max-width: 100vw;
+    align-items: flex-start;
+  }
+
+  .hero {
+    padding: 0;
+    max-width: 90%;
+    align-self: center;
+  }
+
+  .title {
+    font-size: 2.8em;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 349px) {
+  .title {
+    font-size: 2.4em;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .title {
+    font-size: 2.2em;
+  }
+}
+
+/* TODO: Success */
