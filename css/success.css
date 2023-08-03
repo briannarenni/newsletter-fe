@@ -11,6 +11,10 @@ img {
   max-width: 15%;
 }
 
+p {
+  font-size: 1.2em;
+}
+
 .flex-wrap {
   display: flex;
   flex-direction: column;
@@ -38,9 +42,8 @@ img {
   line-height: 1.5;
 }
 
-.message {
-  margin: 10px;
-  line-height: 1.5;
+.submitted-email {
+  overflow-wrap: break-word;
 }
 
 .dismiss-btn {

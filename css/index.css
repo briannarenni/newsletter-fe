@@ -4,6 +4,19 @@ body {
   font-size: 19px;
   background-color: var(--charcoal);
   font-family: 'Roboto', sans-serif;
+}
+
+p {
+  margin: 10px;
+}
+
+ul li {
+  padding: 3px;
+  list-style-image: url(/assets/images/icon-list.svg);
+}
+
+.flex-wrap {
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;

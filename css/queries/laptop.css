@@ -1,7 +1,10 @@
-/* Index */
 @media screen and (min-width: 1400px) {
   ul {
     line-height: 2;
+  }
+
+  .message {
+    font-size: 1.2em;
   }
 
   .attribution {
@@ -9,7 +12,7 @@
   }
 }
 
-@media screen and (min-width: 1199px) and (max-width: 1399px) {
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
   .hero {
     max-width: 55%;
     scale: .9;
@@ -21,13 +24,17 @@
     padding: 5px;
     margin: 10px;
   }
-}
 
-@media screen and (min-width: 1024px) and (max-width: 1198px) {
-  body {
-    font-size: 15px;
+  .success-card {
+    padding: 30px;
   }
 
+  .banner {
+    font-size: 2.8em;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
   ul {
     line-height: 1.5;
   }
@@ -47,6 +54,20 @@
   .title {
     font-size: 2.8em;
   }
-}
 
-/* TODO: Success */
+  .success-card {
+    max-width: 50%;
+  }
+
+  .banner {
+    font-size: 3.4em;
+  }
+
+  .message {
+    font-size: 1.5em;
+  }
+
+  .dismiss-btn {
+    font-size: 1em;
+  }
+}
