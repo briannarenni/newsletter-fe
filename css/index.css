@@ -12,7 +12,7 @@ p {
 
 ul li {
   padding: 3px;
-  list-style-image: url(/assets/images/icon-list.svg);
+  list-style-image: url(assets/images/icon-list.svg);
 }
 
 .flex-wrap {
@@ -21,15 +21,6 @@ ul li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-p {
-  margin: 10px;
-}
-
-ul li {
-  padding: 3px;
-  list-style-image: url(/assets/images/icon-list.svg);
 }
 
 .card {
