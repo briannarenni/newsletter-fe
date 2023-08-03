@@ -16,38 +16,36 @@
 </head>
 
 <body>
-  <main class="card">
-    <section class="hero">
-      <h1 class="title">Stay updated!</h1>
-      <p>Join 60,000+ product managers receiving monthly updates on:</p>
-      <ul>
-        <li> Product discovery and building what matters</li>
-        <li> Measuring to ensure updates are a success</li>
-        <li> And much more!</li>
-      </ul>
-
-      <form id="email-form" target="_self" novalidate>
-        <div class="labels">
-          <label for="email" class="label">Email address</label>
-          <span class="error-message" id="email-error"></span>
-        </div>
-        <input type="email" id="email" class="email" placeholder="email@company.com"></input>
-        <button type="submit" class="sub-btn">Subscribe to monthly newsletter</button>
-      </form>
-    </section>
-
-    <section class="graphic">
-      <picture>
-        <source media="(min-width: 1024px)" srcset="/assets/images/illustration-sign-up-desktop.svg">
-        <img src="/assets/images/illustration-sign-up-mobile.svg" alt="graphic">
-      </picture>
-    </section>
-  </main>
-
-  <div class="attribution">
-    <p>Brianna Renni | <a href="https://github.com/briannarenni/">Github</a></p>
+  <div class="flex-wrap">
+    <main class="card">
+      <section class="hero">
+        <h1 class="title">Stay updated!</h1>
+        <p>Join 60,000+ product managers receiving monthly updates on:</p>
+        <ul>
+          <li> Product discovery and building what matters</li>
+          <li> Measuring to ensure updates are a success</li>
+          <li> And much more!</li>
+        </ul>
+        <form id="email-form" target="_self" novalidate>
+          <div class="labels">
+            <label for="email" class="label">Email address</label>
+            <span class="error-message" id="email-error"></span>
+          </div>
+          <input type="email" id="email" class="email" placeholder="email@company.com"></input>
+          <button type="submit" class="sub-btn">Subscribe to monthly newsletter</button>
+        </form>
+      </section>
+      <section class="graphic">
+        <picture>
+          <source media="(min-width: 1024px)" srcset="/assets/images/illustration-sign-up-desktop.svg">
+          <img src="/assets/images/illustration-sign-up-mobile.svg" alt="graphic">
+        </picture>
+      </section>
+    </main>
+    <div class="attribution">
+      <p>Brianna Renni | <a href="https://github.com/briannarenni/">Github</a></p>
+    </div>
   </div>
-
   <script src="/js/index.js"></script>
 </body>
 

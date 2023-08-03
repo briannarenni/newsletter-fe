@@ -59,6 +59,10 @@
     font-size: 2.8em;
   }
 
+  .success-card {
+    max-width: 50%;
+  }
+
   .banner {
     font-size: 3.4em;
   }
